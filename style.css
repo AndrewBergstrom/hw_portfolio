@@ -15,6 +15,48 @@ body, .parallax {
    
 }
 
+.fixed-top {
+    opacity: 90%;
+}
 #Header a:hover {
 color: #ffffff;
 }
+
+
+
+.card {
+    width: 721px;
+    background-color: rgb(1, 103, 99);
+
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 100px;
+    font-family: cursive;
+    color: seagreen;
+}
+
+.nav-link {
+    font-size: 25px;
+}
+h5  {
+    color: wheat;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+}
+
+
+/*
+.display-4 {
+    color:whitesmoke;
+    font-family: 'Gochi Hand', cursive;
+}
+
+p {
+    color: white;
+    font-size: 35px;
+}*/
