@@ -14,58 +14,48 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!--Added css style sheet -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<!--Added container -->
-
-<div class="container">
-
-<header>Andrew Bergstrom</header>
-
+  <!--navbar-->
+  <div id="Header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <a href="#" class="navbar-brand"> <h3>Andrew Bergstrom</h3></a>
+        <div class="collape navbar-collapse" id="navbar"></div>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+      </div>
+    </nav>
+  </div>
     
   
-      <!-- Added NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- Deleted <a class="navbar-brand" href="#">Andrew Bergstrom</a> from this line -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <!-- removes search bar
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-          -->
-        </div>
-      </nav>
-    </div>
+
       <div class="parallax"></div>
+
+      <!-- About Me -->
+
+      <div class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card-title my-5">
+                <div class="media">
+                  <img src="./images/DSC09856.jpg" width="375" height="250" class="img-fluid rounded-top" alt="Self portrait">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       
     
     <!-- javaScript from Bootstrap -->

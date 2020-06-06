@@ -15,21 +15,6 @@ body, .parallax {
    
 }
 
-header {
-    background-color: white;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 40px;
-    font-weight: bold;
-    color: black;
-    height: 150px;
-    width: 100%;
-    display:flex; 
-    justify-content: center;
-    padding:40px;
-}
-
-
-
-article p {
-    color: white;
+#Header a:hover {
+color: #ffffff;
 }
