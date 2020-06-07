@@ -30,7 +30,10 @@ color: #ffffff;
 
 }
 
-
+.portfolio {
+    display: flex;
+    justify-content: flex-end;
+}
 h3 {
     font-weight: lighter;
     font-size: 65px;
