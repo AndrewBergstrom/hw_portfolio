@@ -1,8 +1,9 @@
 /*background image*/
 body, .parallax {
     /* The image used */
+    
     background-image: url("./images/background-forest.jpg");
-  
+    
     /* Set a specific height */
     min-height: 500px; 
   
@@ -11,14 +12,14 @@ body, .parallax {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: darkseagreen;
+    background-color:rgb(1, 103, 99);
    
 }
 
 .fixed-top {
     opacity: 90%;
 }
-#Header a:hover {
+Header a:hover {
 color: #ffffff;
 }
 
