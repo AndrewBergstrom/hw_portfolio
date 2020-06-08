@@ -13,9 +13,23 @@ body {
  height: 100vh; /*viewport heigh*/
 
 }
+
+
+
+
 .fixed-top {
     opacity: 90%;
 }
+Header a:hover {
+    color: #ffffff;
+    }
+    
+    h3 {
+        font-weight: lighter;
+        font-size: 65px;
+        font-family: cursive;
+        color: seagreen;
+    }
 
 .wrapper {
     position: absolute;
@@ -61,7 +75,8 @@ body {
 }
 
 .send-btn {
-    background: olive;
+    opacity: 90%;
+    background: seagreen;
     text-align: center;
     padding: 15px;
     border-radius: 10px;
@@ -69,3 +84,5 @@ body {
     text-transform: uppercase;
 }
 
+.nav-link {
+    font-size: 25px;
