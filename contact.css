@@ -1,21 +1,71 @@
-/*background image*/
-body, .parallax {
-    /* The image used */
-    
-    background-image: url("./images/background-forest.jpg");
-    
-    /* Set a specific height */
-    min-height: 500px; 
   
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color:rgb(1, 103, 99);
-   
+/*background image*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
 }
 
+body {
+ background: url("./images/background-forest.jpg") no-repeat top center;
+ background-size: cover;
+ height: 100vh; /*viewport heigh*/
+
+}
 .fixed-top {
     opacity: 90%;
 }
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.contact-form {
+    max-width: 850px;
+    margin: 0 auto;
+    background: rgba(255, 253, 253, 0.913);
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 0 0 10px;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields, .msg{
+    width: 48%;
+}
+
+.input-fields .input, 
+.msg textarea{
+    margin: 10px 0;
+    background:transparent;
+    border: 0;
+    border-bottom: 2px solid rgb(131, 130, 130);
+    padding: 6px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.msg textarea {
+    height: 212px;
+}
+
+.send-btn {
+    background: olive;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
