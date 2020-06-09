@@ -3,22 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-
-   
+    
     <title>Andrew Bergstrom's Portfolio</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gochi+Hand&display=swap" rel="stylesheet">
-
     <!-- Link to bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!--Added css style sheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
+  <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 
   <a class="navbar-brand" href="index.html"><h3>Andrew Bergstrom</h3></a>
@@ -67,16 +65,17 @@
 <br>
 <br>
      
-<!--fluid container -->
+<!--about me card -->
 <div class="container-fluid">
-  <!--about me card -->
   <div class="aboutme">
       <div class="card">
         <img src="./images/DSC09856.jpg" width="720" height="510" alt="Photo of Andrew Bergstrom">
         <div class="card-body">
           <h5 class="card-title">About Me</h5>
             <p class="card-text">While leading a group through a muskeg deep in an ancient forest in Southeast Alaska, I had to stop for a drink of water and of course a quick photoshoot.</p>
-          <a href="index.html" class="btn btn-info">Get to know me</a>
+         <div class="main" id="main-section">
+            <a href="#aboutme" class="btn btn-info">Get to know me</a>
+          </div>
         </div>
       </div>
     </div>
@@ -108,8 +107,53 @@
 <br>
 <br>
 
+<!-- about me section. This function links to the about me card button for the "smooth scrolling" effect -->
+<div class="main" id="aboutme">  
+  <a href="#main-section"></a>
+   <!-- End Nav -->
+   <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="page-header text-center">
+          <h1>About Me</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-9">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
+              nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
+              felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
+              non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
+              luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
+              neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
+              dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
+              posuere sem congue a.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="profilepic">
+       <img src="./images/profilepic.jpg" alt="Placeholder" class="img-thumbnail img-fluid">
+      </div>
+    </div>
+  </div>
 
-    
+
+ 
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
     <!-- javaScript from Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

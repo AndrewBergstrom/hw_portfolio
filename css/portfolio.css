@@ -1,8 +1,7 @@
-/*background image*/
 body, .parallax {
     /* The image used */
     
-    background-image: url("./images/loonswoon.jpg");
+    background-image: url("/images/hazy-forest.jpg");
     
     /* Set a specific height */
     min-height: 500px; 
@@ -16,22 +15,6 @@ body, .parallax {
    
 }
 
-.fixed-top {
-    opacity: 90%;
-}
-
-
-.card {
-    width: 721px;
-    background-color: rgb(1, 103, 99);
-
-}
-
-.aboutme { 
-    display: flex;
-    justify-content: flex-end;
-}
-
 h3 {
     font-weight: lighter;
     font-size: 65px;
@@ -41,23 +24,5 @@ h3 {
 
 .nav-link {
     font-size: 25px;
+    
 }
-h5  {
-    color: wheat;
-    font-weight: bold;
-}
-
-p {
-    color: white;
-}
-
-
-/*
-.display-4 {
-    color:whitesmoke;
-    font-family: 'Gochi Hand', cursive;
-}
-p {
-    color: white;
-    font-size: 35px;
-}*/
