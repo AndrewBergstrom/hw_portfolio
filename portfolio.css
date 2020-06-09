@@ -14,3 +14,14 @@ body, .parallax {
     background-color:rgb(1, 103, 99);
    
 }
+
+h3 {
+    font-weight: lighter;
+    font-size: 65px;
+    font-family: cursive;
+    color: seagreen;
+}
+
+.nav-link {
+    font-size: 25px;
+}
