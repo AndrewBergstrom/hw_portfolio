@@ -39,7 +39,10 @@ p {
     color:white;
 }
 
-
+.container {
+    background-color: black;
+    border-radius: 40px;
+}
 
 h1 {
     color: whitesmoke;
