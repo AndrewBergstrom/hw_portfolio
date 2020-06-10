@@ -8,7 +8,7 @@
 }
 
 body {
- background: url("/images/background-forest.jpg") no-repeat top center;
+ background: url("../images/background-forest.jpg") no-repeat top center;
  background-size: cover;
  height: 100vh; /*viewport heigh*/
 
@@ -21,11 +21,11 @@ body {
     opacity: 90%;
 }
 
-    h3 {
-        font-weight: lighter;
-        font-size: 65px;
-        font-family: cursive;
-        color: seagreen;
+h3 {
+    font-weight: lighter;
+    font-size: 65px;
+    font-family: cursive;
+     color: seagreen;
     }
 
 .wrapper {

@@ -2,7 +2,7 @@
 body, .parallax {
     /* The image used */
     
-    background-image: url("/images/loonswoon.jpg");
+    background-image: url("../images/loonswoon.jpg");
     
     /* Set a specific height */
     min-height: 500px; 

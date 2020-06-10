@@ -1,7 +1,7 @@
 body, .parallax {
     /* The image used */
     
-    background-image: url("/images/hazy-forest.jpg");
+    background-image: url("../images/hazy-forest.jpg");
     
     /* Set a specific height */
     min-height: 500px; 
@@ -15,12 +15,20 @@ body, .parallax {
    
 }
 
+
+
 h3 {
     font-weight: lighter;
     font-size: 65px;
     font-family: cursive;
     color: seagreen;
 }
+
+h4 {
+    font-weight: lighter;
+    font-size: 60px;
+    font-family: cursive;
+    color: seagreen;
 
 .nav-link {
     font-size: 25px;
