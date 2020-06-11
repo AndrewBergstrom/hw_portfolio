@@ -84,3 +84,26 @@ h3 {
 .nav-link {
     font-size: 25px;
 }
+
+
+
+.linkedIn{
+    background-color: black;
+    color: #0077b5;
+    font-size: 50px;
+    border-radius: 6px;
+}
+
+.github{
+    background-color: black;
+    color:#fff;
+    font-size: 50px;
+    border-radius: 9px;
+}
+
+.instagram{
+    background-image: linear-gradient(to bottom right, #f58529,#feda77,#dd2a7b, #8134af, #515bd4);
+    color: cornsilk;
+    font-size: 50px;
+    border-radius: 9px;
+}

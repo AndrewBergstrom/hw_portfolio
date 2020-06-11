@@ -71,3 +71,20 @@ footer{
 .profilepic {
     width: 350px;
 }
+
+.linkedIn{
+    color: #0077b5;
+    font-size: 50px;
+}
+
+.github{
+    color:#fff;
+    font-size: 50px;
+}
+
+.instagram{
+    background-image: linear-gradient(to bottom right, #f58529,#feda77,#dd2a7b, #8134af, #515bd4);
+    color: cornsilk;
+    border-radius: 9px;
+    font-size: 50px;
+}
