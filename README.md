@@ -24,5 +24,5 @@ I also used a code validator to clean up my html, although I was unable to fix m
 * I utilized sub-row and sub-columns while creating my about me card.
 
 
-Over all this was a challening project that really made me think hard about how I can utilize bootstraps grid system.
+Over all this was a challenging project that really made me think hard about how I can utilize bootstraps grid system.
 
