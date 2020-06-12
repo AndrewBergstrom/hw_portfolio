@@ -26,3 +26,5 @@ I also used a code validator to clean up my html, although I was unable to fix m
 
 Over all this was a challenging project that really made me think hard about how I can utilize bootstraps grid system.
 
+
+If you would like to see my personal portfolio please follow this link: https://andrewbergstrom.github.io/hw_portfolio/
