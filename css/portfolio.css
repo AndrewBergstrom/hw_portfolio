@@ -4,7 +4,7 @@ body, .parallax {
     background-image: url("../images/mistytrees.jpg");
     
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 300px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -23,16 +23,13 @@ h2 {
 
 h3 {
     font-weight: lighter;
-    font-size: 65px;
+    font-size: 35px;
     font-family: cursive;
     color: seagreen;
 }
 
-
-
-
 .nav-link {
-    font-size: 25px;
+    font-size: 20px;
     
 }
 

@@ -5,7 +5,7 @@ body, .parallax {
     background-image: url("../images/loons.jpg");
     
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 300px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -35,7 +35,7 @@ body, .parallax {
     justify-content: flex-end;
 }
 p {
-    font-size: 20px;
+    font-size: 16px;
     color:white;
 }
 
@@ -44,6 +44,7 @@ p {
     border-radius: 40px;
 }
 
+
 h1 {
     color: whitesmoke;
     padding: 10px;
@@ -51,7 +52,7 @@ h1 {
 
 h3 {
     font-weight: lighter;
-    font-size: 65px;
+    font-size: 35px;
     font-family: cursive;
     color: seagreen;
 }
@@ -65,7 +66,7 @@ footer{
     font-size: 20px;
 }
 .nav-link {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .profilepic {
